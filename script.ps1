@@ -9,3 +9,4 @@ New-NetFirewallRule -DisplayName "Citrix ICA Service" -Description "Firewall Rul
 New-NetFirewallRule -DisplayName "Citrix ICA UDP" -Description "Firewall Rule for Citrix ICA UDP Port" -Group "Citrix Virtual Desktop Agent" -Direction Inbound -Action Allow -Protocol UDP -LocalPort 1494
  
 New-NetFirewallRule -DisplayName "Citrix Websocket Service" -Description "Firewall Rule for Citrix Websocket Service" -Group "Citrix Virtual Desktop Agent" -Direction Inbound -Action Allow -Protocol TCP -LocalPort 8008
+#Test
